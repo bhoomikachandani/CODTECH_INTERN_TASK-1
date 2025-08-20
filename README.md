@@ -1,9 +1,8 @@
 # TASK 1 - API integration and Data Visualization.
 
-<h1>Weather Forecast Visualization</h1><br>
+<h3>Weather Forecast Visualization</h3><br>
 <p>This project is a simple but powerful application that retrieves and visualizes a 5-day weather forecast. Developed as a part of my internship at <b>CodTech IT Solutions</b>, it demonstrates key skills in API integration, data handling, and data visualization.</p>
 <br>
-
 <h3>Features</h3>
 <ul>
     <li><b>Live Weather Data</b>: Fetches a real-time, 5-day weather forecast from the OpenWeatherMap API.</li>
@@ -11,7 +10,6 @@
     <li><b>Data Visualization</b>: Plots the temperature forecast on a clean and readable graph.</li>
     <li><b>Error Handling</b>: Gracefully handles invalid city names or failed API requests.</li>
 </ul>
-
 
 <h3>Technologies Used</h3>
 <ul>
@@ -21,7 +19,19 @@
     <li><b>Error Handling</b>: Gracefully handles invalid city names or failed API requests.</li>
 </ul>
 
-<h3>How to Run</h3>
-
+<h3>How to Works</h3>
+<ol>
+    <li>User enters a city name.</li>
+    <li>Script fetches the 5-day forecast from OpenWeatheMap API.</li>
+    <li>Weather data is structured inyo a Pandas DataFrame.</li>
+    <li>charts and graphs are generated to visualize <b>temperature with respect to time and data</b>.</li>
+</ol>
+<h3>Learning Outcomes</h3>
+<ul>
+    <li>Learned how to integrate public APIs with Python.</li>
+    <li>Improved skills in data cleaning and processing.</li>
+    <li>Gained hands-on experience in data visualization project.</li>
+</ul>
+    
 
 
