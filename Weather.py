@@ -2,10 +2,14 @@ import requests
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Get user input for city name and setting API call 
+
 city_name = input("Enter your city name : ")
 API_key = "e34d108c2e2527e9a220b344fd1bcaf4"
 base_url = "http://api.openweathermap.org/data/2.5/forecast"
 complete_url = f"{base_url}?q={city_name}&appid={API_key}"
+
+# Make the API request and handle errors 
 
 response = requests.get(complete_url)
 
@@ -28,6 +32,8 @@ if response.status_code == 200:
 
     scatter_dates = [v[0] for v in last_date_points.values()]
     scatter_temps = [v[1] for v in last_date_points.values()]
+
+    # Plot the data using Matplotlib or Seaborn
 
     plt.figure(figsize=(12, 6))
     sns.set(style="whitegrid")
