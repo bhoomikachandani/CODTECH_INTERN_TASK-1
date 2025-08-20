@@ -1,8 +1,7 @@
 # TASK 1 - API integration and Data Visualization.
 
-<h3>Weather Forecast Visualization</h3><br>
+<h3>Weather Forecast Visualization</h3>
 <p>This project is a simple but powerful application that retrieves and visualizes a 5-day weather forecast. Developed as a part of my internship at <b>CodTech IT Solutions</b>, it demonstrates key skills in API integration, data handling, and data visualization.</p>
-<br>
 <h3>Features</h3>
 <ul>
     <li><b>Live Weather Data</b>: Fetches a real-time, 5-day weather forecast from the OpenWeatherMap API.</li>
